@@ -196,47 +196,47 @@ const Navbar1 = () => {
           }}
         >
           <Card.Body>
-            <Card.Img
+            {/* <Card.Img
               style={{ height: "auto", width: "100%", zIndex: "2" }}
               src={img31}
-            />
-            <Card.ImgOverlay>
-              <Card.Title id="collection" className="mb-2">
-                {" "}
-                Collections
-              </Card.Title>
-              {/* <Card.Subtitle className="mb-2 text-muted">Sell extraordinary</Card.Subtitle> */}
-              <h4
-                style={{
-                  fontWeight: "700",
-                  fontSize: "3rem",
-                  position: "relative",
-                  zIndex: "2",
-                }}
-              >
-                Are you curious to our
-              </h4>
-              <h1
-                style={{
-                  fontWeight: "700",
-                  fontSize: "560%",
-                  color: "#67CDF1",
-                }}
-              >
-                {" "}
-                Potato NFTs
-              </h1>
-              <Card.Text className="text-lg" style={{ fontSize: "1.3rem" }}>
-                Marketplace for potato character collections non fungible token
-                NFTs
-              </Card.Text>
-              <Button
-                className="button155"
-                style={{ marginTop: "4%", marginLeft: "4%" }}
-              >
-                Check Our Collection
-              </Button>
-            </Card.ImgOverlay>
+            /> */}
+            {/* <Card.ImgOverlay> */}
+            <Card.Title id="collection" className="mb-2">
+              {" "}
+              Collections
+            </Card.Title>
+            {/* <Card.Subtitle className="mb-2 text-muted">Sell extraordinary</Card.Subtitle> */}
+            <h4
+              style={{
+                fontWeight: "700",
+                fontSize: "3rem",
+                position: "relative",
+                zIndex: "2",
+              }}
+            >
+              Are you curious to our
+            </h4>
+            <h1
+              style={{
+                fontWeight: "700",
+                fontSize: "560%",
+                color: "#67CDF1",
+              }}
+            >
+              {" "}
+              Potato NFTs
+            </h1>
+            <Card.Text className="text-lg" style={{ fontSize: "1.3rem" }}>
+              Marketplace for potato character collections non fungible token
+              NFTs
+            </Card.Text>
+            <Button
+              className="button155"
+              style={{ marginTop: "4%", marginLeft: "4%" }}
+            >
+              Check Our Collection
+            </Button>
+            {/* </Card.ImgOverlay> */}
           </Card.Body>
         </Card>
         <Container></Container>
